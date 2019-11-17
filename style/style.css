@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Raleway&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: normal .80em;
+    background-color: #000;
+    background-image: url(snow.gif), url(lights.gif);
+    background-repeat: repeat, no-repeat;
+    background-position: right bottom, top right;
+    background-size: auto, auto;
+}
+
+;
+color: #5D5D5D;
+}
+
+img {
+    border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 165%;
+    color: #167B3A;
+    margin: 0 0 14px 0;
+    padding: 10px 0 5px 0;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 150%;
+    color: #B60000;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 165%;
+}
+
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0 0 5px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 125%;
+    color: #B60000;
+}
+
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    color: #888;
+}
+
+h6 {
+    color: #362C20;
+}
+
+
+.left {
+    float: left;
+    width: auto;
+    margin-right: 10px;
+}
+
+ul {
+    margin: 2px 0 22px 17px;
+}
+
+ul li {
+    list-style-type: circle;
+    margin: 0 0 6px 0;
+    padding: 0 0 4px 5px;
+}
+
+#main,
+#logo,
+#menubar,
+#site_content,
+#footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main {
+    padding-bottom: 20px;
+}
+
+#header {
+    background: transparent;
+    height: 170px;
+
+}
+
+#logo {
+    width: 860px;
+    position: relative;
+    height: 134px;
+}
+
+#logo h1,
+#logo h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+#logo h1 {
+    font-size: 300%;
+    padding: 24px 0 0 0;
+    margin: 0;
+    color: #FFF;
+}
+
+#logo h2 {
+    font-size: 170%;
+    padding: 4px 0 0 0;
+    color: #F8D874;
+}
+
+#logo h1,
+#logo h1 a,
+#logo h1 a:hover {
+    padding: 22px 0 0 0;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#logo h1 a .logo_colour {
+    color: #D32727;
+}
+
+#logo a:hover .logo_colour {
+    color: #167B3A;
+}
+
+#menubar {
+    height: 24px;
+    width: 900px;
+}
+
+ul#menu {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+ul#menu li {
+    float: left;
+    padding: 0;
+    list-style: none;
+    margin: 5px 2px 0 0;
+}
+
+ul#menu li a {
+    font-family: 'Raleway', sans-serif;
+    font-size: normal 100%;
+    display: block;
+    float: left;
+    height: 20px;
+    padding: 6px 20px 5px 20px;
+    text-align: center;
+    color: #B60000;
+    text-decoration: none;
+    background: #FCF0E4;
+}
+
+ul#menu li.selected a,
+ul#menu li.selected a:hover {
+    background: #FFF;
+    color: #167B3A;
+}
+
+ul#menu li a:hover {
+    color: #167B3A;
+}
+
+#site_content {
+    width: 858px;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    padding: 10px 20px 20px 20px;
+    background: #FCF0E4;
+    border: 15px solid #FFF;
+}
+
+.sidebar {
+    float: right;
+    width: 300px;
+    padding: 0 15px 20px 15px;
+}
+
+
+#content {
+    text-align: left;
+    width: 613px;
+    padding: 0;
+}
